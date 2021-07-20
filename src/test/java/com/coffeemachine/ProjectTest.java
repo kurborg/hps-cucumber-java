@@ -1,4 +1,4 @@
-package com.example;
+package com.coffeemachine;
 
 import junit.framework.TestCase;
 
