@@ -2,8 +2,8 @@ language: java
 sudo: false
 
 before_install:
-  - rvm install --latest
-  - rvm use --latest
+  - rvm install 2.6
+  - rvm use 2.6
   - gem install hiptest-publisher
   - "hiptest-publisher -c cucumber-java.conf --only=features,step_definitions --test-run-id=566086"
 
